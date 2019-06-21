@@ -45,7 +45,7 @@ router.post('/', async (req, res) => {
 //
 router.put('/:id', async (req, res) => {
     try{
-        const project = await Projects.update(req.params.id, req.params.body)
+        const project = await Projects.update(req.params.id, req.body)
         if(project){
             res.status(200).json(project);
         } else{

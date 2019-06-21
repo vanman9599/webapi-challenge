@@ -49,7 +49,7 @@ router.delete('/:id', async (req, res) => {
 
 router.put('/:id', async (req, res) => {
     try{
-        const action = await Actions.update(req.params.id, req.params.body)
+        const action = await Actions.update(req.params.id, req.body)
         if(action){
             res.status(200).json(action);
         } else{
