@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+        Express Routers, and Express custom middleware
+        
 - [ ] Describe Middleware?
+
+        An array of functions...
 
 - [ ] Describe a Resource?
 
+    Everything in a RESTful API is a resource and can be accessed via a unique URL over HTTP
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+        It can return a status code of 200
+
 - [ ] How can we partition our application into sub-applications?
+    
+        We can use Express Router to make our application more modular. 
 
 ## Project Setup
 
